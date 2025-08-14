@@ -1,0 +1,9 @@
+@reference "tailwindcss";
+
+:has(.navbar-link) {
+    @apply text-green-400 !list-none;
+}
+
+.navbar-list {
+    @apply bg-slate-700 p-1 !size-full;
+}
